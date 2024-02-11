@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  7 FEB 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  11 FEB 2024 16:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1014,7 +1014,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--1
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
@@ -1022,44 +1042,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
 
 ]
-<figures/download.png, id=40, 462.528pt x 346.896pt>
+<figures/download.png, id=50, 462.528pt x 346.896pt>
 File: figures/download.png Graphic file (type png)
 <use figures/download.png>
-Package pdftex.def Info: figures/download.png  used on input line 141.
+Package pdftex.def Info: figures/download.png  used on input line 177.
 (pdftex.def)             Requested size: 201.60077pt x 151.20024pt.
-<figures/download2.png, id=42, 462.528pt x 346.896pt>
+<figures/download2.png, id=52, 462.528pt x 346.896pt>
 File: figures/download2.png Graphic file (type png)
 <use figures/download2.png>
-Package pdftex.def Info: figures/download2.png  used on input line 149.
+Package pdftex.def Info: figures/download2.png  used on input line 185.
 (pdftex.def)             Requested size: 201.60077pt x 151.20024pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/download3.png, id=43, 462.528pt x 346.896pt>
+<figures/download3.png, id=53, 462.528pt x 346.896pt>
 File: figures/download3.png Graphic file (type png)
 <use figures/download3.png>
-Package pdftex.def Info: figures/download3.png  used on input line 156.
+Package pdftex.def Info: figures/download3.png  used on input line 192.
 (pdftex.def)             Requested size: 201.60077pt x 151.20024pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/download4.png, id=44, 462.528pt x 346.896pt>
+<figures/download4.png, id=54, 462.528pt x 346.896pt>
 File: figures/download4.png Graphic file (type png)
 <use figures/download4.png>
-Package pdftex.def Info: figures/download4.png  used on input line 163.
+Package pdftex.def Info: figures/download4.png  used on input line 199.
 (pdftex.def)             Requested size: 201.60077pt x 151.20024pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/download5.png, id=45, 462.528pt x 346.896pt>
+<figures/download5.png, id=55, 462.528pt x 346.896pt>
 File: figures/download5.png Graphic file (type png)
 <use figures/download5.png>
-Package pdftex.def Info: figures/download5.png  used on input line 170.
+Package pdftex.def Info: figures/download5.png  used on input line 206.
 (pdftex.def)             Requested size: 201.60077pt x 151.20024pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./figures/download.png> <./figures/download2.png> <./figures/download3.png> <./figures/download4.png> <./figures/download5.png>] (./output.aux)
+[2 <./figures/download.png>] [3
+
+ <./figures/download2.png> <./figures/download3.png> <./figures/download4.png> <./figures/download5.png>] (./output.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1068,18 +1090,18 @@ Package rerunfilecheck Info: File `output.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30326 strings out of 475237
- 595214 string characters out of 5764570
- 1967244 words of memory out of 5000000
+ 30356 strings out of 475237
+ 595597 string characters out of 5764570
+ 1970244 words of memory out of 5000000
  50873 multiletter control sequences out of 15000+600000
  636274 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,103p,1172b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,103p,1172b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output.pdf (2 pages, 157050 bytes).
+Output written on output.pdf (3 pages, 157986 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 39 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 69 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
