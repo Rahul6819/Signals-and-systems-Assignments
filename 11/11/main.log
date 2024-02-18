@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  18 FEB 2024 07:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  18 FEB 2024 10:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1013,18 +1013,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
+<figs/graph.png, id=7, 462.528pt x 346.896pt>
+File: figs/graph.png Graphic file (type png)
+<use figs/graph.png>
+Package pdftex.def Info: figs/graph.png  used on input line 82.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/download.png, id=7, 642.4pt x 481.8pt>
-File: figs/download.png Graphic file (type png)
-<use figs/download.png>
-Package pdftex.def Info: figs/download.png  used on input line 84.
-(pdftex.def)             Requested size: 252.0pt x 188.99663pt.
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./figs/download.png>] (./output.aux)
+ <./figs/graph.png>] (./output.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1033,18 +1033,18 @@ Package rerunfilecheck Info: File `output.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30274 strings out of 475237
- 594142 string characters out of 5764570
- 1943244 words of memory out of 5000000
+ 30272 strings out of 475237
+ 594095 string characters out of 5764570
+ 1939244 words of memory out of 5000000
  50844 multiletter control sequences out of 15000+600000
  636334 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,11n,103p,1172b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output.pdf (1 page, 61121 bytes).
+Output written on output.pdf (1 page, 59813 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

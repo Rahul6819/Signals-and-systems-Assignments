@@ -60,8 +60,7 @@
 \begin{center}
     
 \begin{align}
-      x(n)&=x(0)r^{n}\\
-      x(z)&=\frac{x(0)}{1-rz^{-1}} \qquad |z|>|r|\\
+      X(z)&=\frac{x(0)}{1-rz^{-1}} \qquad |z|>|r|\\
       &=\frac{3}{1-3z^{-1}}\\
       U(z)&=\frac{1}{1-z^{-1}} \qquad |z|>1\\
       y(n)&= x(n)*u(n)\\
@@ -73,8 +72,6 @@ Using Contour integration\\
  \begin{align}
    y(n)&=\frac{1}{2\pi j}\oint_C \frac{3 z^2}{(z-1)(z-3)}z^{n-1} dz\\
    &=\frac{1}{2 \pi j}\oint_C \frac{3}{2} \brak{\frac{1}{z-3} - \frac{1}{z-1}z^{n+1}}dz\\
-   &= \frac{3}{2} \brak{\brak{\lim_{z\to \ 3}\frac{z^{n+1}}{z-3} (z-3)}-\brak{\lim_{z \to \ 1}\frac{z^{n+1}}{z-1} (z-1)}}\\
-   &= \frac{3}{2}(3^{n}- 1)\\
    120&= \frac{3}{2}(3^{n}- 1)\\
    n&=4
  \end{align}
@@ -82,7 +79,7 @@ Using Contour integration\\
 
 \begin{figure}[h]
   
-  \includegraphics[width=\columnwidth]{figs/download.png}
+  \includegraphics[width=\columnwidth]{figs/graph.png}
   \caption{Stem plot of y(n)}
   \label{fig:your_label}
 \end{figure}
