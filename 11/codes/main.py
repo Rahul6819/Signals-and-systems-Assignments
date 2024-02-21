@@ -1,15 +1,22 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
-# Read the terms from the file
-with open('terms.txt', 'r') as file:
-    terms = [int(line.strip()) for line in file]
+data=np.loadtxt("terms.txt", skiprows=1)
 
-# Create stem plot
-plt.stem(range(1, len(terms) + 1), terms, use_line_collection=True)
+plt.close("all")
 
-# Set y-axis limits to decrease the scale
-plt.ylim(min(terms) - 5, max(terms) + 5)  # Adjust the values as needed
+n=data[:5,0]
+y_n=data[:5,1]
 
+
+plt.stem(n, y_n, markerfmt='bo', linefmt='b-', basefmt='r-',label=r'Simulation') 
+plt.axhline(y=243, color='green', linestyle='--',label='y=243')
 plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
-plt.savefig('graph.png')
+plt.xticks(n)
+plt.title('Simulation v/s Analysis')
+
+plt.legend()
+plt.grid(True)
+plt.savefig("figure_plot.png")
+plt.show()
