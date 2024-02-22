@@ -17,7 +17,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         int term = a * pow(r, i);
-        fprintf(fp, "%d\n", term);
+        fprintf(fp,"%d" "%d\n",n ,  term);
     }
 
     fclose(fp);
