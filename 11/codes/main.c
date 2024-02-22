@@ -1,25 +1,30 @@
-
 #include <stdio.h>
 #include <math.h>
 
 int main() {
     FILE *fp;
-    int a = 3;  // first term
-    int r = 3;  // common ratio
-    int n = 5;  // number of terms
+    int n = 5; // Number of terms in the GP
+    int a = 3; // First term
+    int r = 3; // Common ratio
+    int sum = 0;
+    int i;
+    int x_n;
 
-    // Calculate the terms of the G.P. and write to file
-    fp = fopen("terms.txt", "w");
+    fp = fopen("gp_sum.txt", "w");
     if (fp == NULL) {
         printf("Error opening file.\n");
         return 1;
     }
 
-    for (int i = 0; i < n; i++) {
-        int term = a * pow(r, i);
-        fprintf(fp,"%d" "%d\n",n ,  term);
+    for (i = 0; i < n; i++) {
+        sum += a;
+        x_n=pow(r,i+1);
+        fprintf(fp, "%d %d %d\n", i+1, x_n, sum);
+        a *= r;
     }
 
     fclose(fp);
+
     return 0;
+}
 }
