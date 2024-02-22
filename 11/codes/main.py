@@ -14,7 +14,7 @@ plt.axhline(y=243, color='green', linestyle='--',label='y=243')
 plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.xticks(n)
-plt.title('Simulation v/s Analysis')
+
 
 plt.legend()
 plt.grid(True)
