@@ -24,7 +24,21 @@ int main() {
     }
 
     fclose(fp);
+    
+    
+    fp = fopen("terms.txt", "w");
+    if (fp == NULL) {
+        printf("Error opening file.\n");
+        return 1;
+    }
 
+    for (i = 0; i < n; i++) {
+        x_n=pow(r,i+1);
+        fprintf(fp, "%d  %d\n", i+1, x_n);
+     
+    }
+
+    fclose(fp);
     return 0;
-}
+
 }
