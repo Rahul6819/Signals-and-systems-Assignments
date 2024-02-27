@@ -60,25 +60,23 @@
 (iv) $- 4, \textunderscore,  \textunderscore, \textunderscore, \textunderscore, 6$\\
 (v)  \textunderscore,38, \textunderscore, \textunderscore, \textunderscore, '- 22'$\\
 
-\textbf{Solution:}\\
+\solution
 \input{Tables/table.tex}
 
 \begin{center}
-
 \begin{enumerate}
-    \item 
-
-     
+    \item  
      \begin{align}
           26&=2+2d\\
         24&=2d \\
         \therefore d&=12\\
          x(1)&=14
      \end{align}
-       
-         \vspace{0.25cm}
-     \item     
-      
+     The $Z$-transform of $x(n) = 2 + 12n$ is given by:
+\begin{align}
+    &X(z)=\frac{2+{10z^{-1}}}{(1-{z^{-1}})^2}  \qquad|z|>1 \\
+\end{align}     
+     \item       
      \begin{align}
          3-13&=2d\\
            -10&=2d\\
@@ -86,9 +84,11 @@
             x(1)&=18\\
             x(2)&=8
      \end{align}
-           \vspace{0.25cm}
+     The $Z$-transform of $x(n) = 18 - 5n$ is given by:
+\begin{align}
+    &X(z)=\frac{18-{23z^{-1}}}{(1-{z^{-1}})^2} \qquad  |z|>1 \\
+\end{align}
        \item    
-    
      \begin{align}
            9\ \frac{1}{2}\ &=5+3d \\
            3d&=\frac{9}{2}\\
@@ -96,9 +96,11 @@
           x(1)&=6\ \frac{1}{2}\\
           x(2)&=8
      \end{align}
-          \vspace{0.25cm} 
-      \item    
-   
+     $Z$-transform of $x(n) = 5 + \frac{3}{2}n$ is given by:
+\begin{align}
+    &X(z)=\frac{5-\frac{7}{2}{z^{-1}}}{(1-{z^{-1}})^2} \qquad |z|>1\\
+\end{align}
+      \item       
 \begin{align}
      6&=-4+5d\\
      10&=5d\\
@@ -107,8 +109,11 @@
           x(2)&=0\\
           x(3)&=2\\
           x(4)&=4
+\end{align} 
+$Z$-transform of $x(n) = -4 + 2n$ is given by:
+\begin{align}
+       &X(z)=\frac{-4+6{z^{-1}}}{(1-{z^{-1}})^2} \qquad  |z|>1\\
 \end{align}
-          \\ \vspace{0.25cm} 
        \item    
      \begin{align}
          -22-38&=4d\\
@@ -119,44 +124,13 @@
             x(3)&=8\\
             x(4)&=-7\\
      \end{align}
-\end{enumerate}             
-          
-\end{center}
-
-\newpage
-\begin{enumerate}
- \item 
-The $Z$-transform of $x(n) = 2 + 12n$ is given by:
-\begin{align}
-    &X(z)=\frac{2+{10z^{-1}}}{(1-{z^{-1}})^2}  \qquad|z|>1 \\
-\end{align}
-\item
-The $Z$-transform of $x(n) = 18 - 5n$ is given by:
-
-\begin{align}
-    &X(z)=\frac{18-{23z^{-1}}}{(1-{z^{-1}})^2} \qquad  |z|>1 \\
-\end{align}
-\item 
-$Z$-transform of $x(n) = 5 + \frac{3}{2}n$ is given by:
-
-\begin{align}
-    &X(z)=\frac{5-\frac{7}{2}{z^{-1}}}{(1-{z^{-1}})^2} \qquad |z|>1\\
-\end{align}
-\item 
-
-\vspace{2cm}
-$Z$-transform of $x(n) = -4 + 2n$ is given by:
-
-\begin{align}
-       &X(z)=\frac{-4+6{z^{-1}}}{(1-{z^{-1}})^2} \qquad  |z|>1\\
-\end{align}
-\item 
-$Z$-transform of $x(n) = 53 - 15n$ is given by:
-
+     $Z$-transform of $x(n) = 53 - 15n$ is given by:
 \begin{align}
        &X(z)=\frac{53-68{z^{-1}}}{(1-{z^{-1}})^2}\qquad|z|>1\\
 \end{align}
-\end{enumerate}
+\end{enumerate}             
+          
+\end{center}
 
 \begin{figure}[h]
        \centering
